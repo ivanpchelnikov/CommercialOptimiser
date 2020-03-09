@@ -15,12 +15,15 @@
 ##### Additional Questions (Bonus points):
 • You have 10 commercials and you must leave one unplaced.
 • Uneven Break structure (One break takes 2, one 3 and one 4 Commercials)
-
-##### Solution: 
-The ouptup group all commercials per demographis per current break, with rules:
- - Commercial Break Restrictions
+ 
+##### Commercial Break Restrictions
       - FinanceType Commercial can’t go in to break2
       - CommercialType cannot be next to same CommercialType in break
-      
-      
-It is also should work for uneven Break structure. One break takes 2, one 3 and one 4 Commercials.
+
+##### Solution: 
+
+Output is done for 3 Commercials per each break per demographic.
+
+It is also done for uneven Break structure. One break takes 2, one 3 and one 4 Commercials.
+
+Then it calculates unplaced commercials.
